@@ -66,3 +66,4 @@ class KeyboardPilot:
     def output (self):
         sp.world.control.steeringAngleStep.set (self.steeringAngleStep)
         sp.world.control.targetVelocityStep.set (self.targetVelocityStep)
+    
